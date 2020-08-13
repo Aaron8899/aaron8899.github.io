@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>Tmux 마우스 스크롤 사용하기</title>
+      <link href="/2020/08/13/Tmux-%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
+      <url>/2020/08/13/Tmux-%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-Tmux-버전-확인"><a href="#1-Tmux-버전-확인" class="headerlink" title="1. Tmux 버전 확인"></a>1. Tmux 버전 확인</h2><p>본인의 Tmux 버전 확인</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tmux -V</span><br></pre></td></tr></table></figure><h2 id="2-tmux-conf-수정"><a href="#2-tmux-conf-수정" class="headerlink" title="2. ~/tmux.conf 수정"></a>2. ~/tmux.conf 수정</h2><h3 id="tmux-conf-열기"><a href="#tmux-conf-열기" class="headerlink" title="~/tmux.conf 열기"></a>~/tmux.conf 열기</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/tmux.conf</span><br></pre></td></tr></table></figure><h3 id="2-1-버전-이상"><a href="#2-1-버전-이상" class="headerlink" title="2.1 버전 이상"></a>2.1 버전 이상</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> -g mouse on        </span><br></pre></td></tr></table></figure><h3 id="2-1-버전-이하"><a href="#2-1-버전-이하" class="headerlink" title="2.1 버전 이하"></a>2.1 버전 이하</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> -g mode-mouse on</span><br></pre></td></tr></table></figure><p>Tmux 버전에 맞춰 코드 입력</p><img src="/2020/08/13/Tmux-%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/input_code.png" class="" title="input_code image"><h2 id="8251-iTerms2-사용-시-필요한-추가-설정"><a href="#8251-iTerms2-사용-시-필요한-추가-설정" class="headerlink" title="&#8251; iTerms2 사용 시 필요한 추가 설정"></a>&#8251; iTerms2 사용 시 필요한 추가 설정</h2><p>Profiles -&gt; Terminal -&gt; Save lines to scrollback when an app status bar is present 체크</p><img src="/2020/08/13/Tmux-%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/iterms_setting.png" class="" title="iterms_setting image">]]></content>
+      
+      
+      <categories>
+          
+          <category> 개발환경 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 개발환경 </tag>
+            
+            <tag> tmux </tag>
+            
+            <tag> 마우스 </tag>
+            
+            <tag> mouse </tag>
+            
+            <tag> 스크롤 </tag>
+            
+            <tag> scroll </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/08/12/hello-world/"/>
       <url>/2020/08/12/hello-world/</url>
